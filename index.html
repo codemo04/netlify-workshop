@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maxiumum-scale=1">
+    <title>netlify</title>
+
+    <link rel="stylesheet" href="framework/css/inspire.css" data-noprefix>
+    <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+    <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+    <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+    <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+    <script src="framework/scripts/prefixfree.min.js"></script>
+
+    <base target="_blank">
+  </head>
+
+  <body class="">
+    <section>
+      <article class="slide intro">
+        <img
+          class="logo"
+          src="framework/img/llc-logo-white.png"
+          alt="Ladies Learning Code logo"
+        >
+        <h1 class="heading-bg">
+          <span>netlify</span>
+        </h1>
+
+        
+
+        <footer>
+          <a
+            class="left"
+            rel="license"
+            href="http://creativecommons.org/licenses/by-nc/4.0/"
+          >
+            <img alt="Creative Commons License" src="framework/img/cc-by-nc.png" />
+          </a>
+          <p class="left">
+            Content created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a>
+          </p>
+          <p class="right">
+            Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate
+          </p>
+        </footer>
+      </article>
+    </section>
+
+    <section>
+      
+        <article class="slide title" data-markdown >
+          <script type="text/template">
+            
+# Web hosting
+
+
+          </script>
+        </article>
+      
+        <article class="slide " data-markdown >
+          <script type="text/template">
+            
+# What is a web host?
+<p class="delayed">A web host is just a computer that **serves** a website to visitors. (You'll also hear them referred to as **servers**.)</p>
+
+Our own computers can be web hosts, too &mdash; that's how we've been viewing our websites so far.<!-- .element class="delayed" -->
+
+We probably don't want strangers being able to access our personal computers, and we want to be able to turn our computers off without preventing people from visiting our websites.<!-- .element class="delayed" -->
+
+Web hosts solve both these problems by being separate computers from our own, and being powered on almost all the time.<!-- .element class="delayed" -->
+
+
+          </script>
+        </article>
+      
+        <article class="slide " data-markdown >
+          <script type="text/template">
+            
+# Netlify
+There are lots of web hosts out there, but today, we are going to use **Netlify**. There are a few reasons for this:
+
+- It's easy to transfer files from our own computers onto Netlify's servers
+- It has a free tier that should be fine for our needs
+- It lets us customize our subdomain names (more on that later!)
+- All sites are automatically encrypted, making them more resistant to hackers
+
+
+          </script>
+        </article>
+      
+        <article class="slide " data-markdown >
+          <script type="text/template">
+            
+# Signing up
+1. Go to https://app.netlify.com/signup
+1. Click on **email**
+1. Enter you Gmail email and a strong password
+1. Check your inbox for an email from Netlify
+1. Click 'Verify Email' to complete the signup process
+
+
+          </script>
+        </article>
+      
+        <article class="slide " data-markdown >
+          <script type="text/template">
+            
+# Creating your first site
+1. Open **Windows Explorer** *(Windows)* or **Finder** *(MacOS)* and navigate until you can see the folder that contains your website 
+1. Drag that folder onto the rectangle that says **Drag and drop your site folder here**
+1. Wait a second. A URL will appear at the top of the page.
+
+![](img/url.png) <!-- .element: class="centered" -->
+
+<p style="text-align: center;">***That's your website!!!***</p>
+
+
+          </script>
+        </article>
+      
+        <article class="slide title" data-markdown >
+          <script type="text/template">
+            
+# Domain names
+
+
+          </script>
+        </article>
+      
+        <article class="slide " data-markdown >
+          <script type="text/template">
+            
+# What is a domain name?
+<p class="delayed">All computers on the internet have a unique number assigned to them, called an **IP Address**. For example: **172.217.1.163** or **67.205.28.89**.</p>
+
+<p class="delayed">These numbers are easy for computers to remember, but humans have trouble with them. Instead, we use **domain names**, which are words that correspond to those numbers. Instead of the two IP addresses above, a human would type **google.ca** or **canadalearningcode.ca**.</p>
+
+<p class="delayed">For you to be able to use a domain name, that name must be registered by someone else, and we normally need to pay for that. However, Netlify allows us to change our subdomain name for free.</p>
+
+
+          </script>
+        </article>
+      
+        <article class="slide " data-markdown >
+          <script type="text/template">
+            
+# Subdomains
+A subdomain tells the computer you're talking to what category of information you're asking for. <!-- .element class="delayed" -->
+
+<p class="delayed">You've used a subdomain every time you've typed **www** into a browser. In **www.canadalearningcode.ca**, **canadalearningcode.ca** is the domain, and **www** is the subdomain.</p>
+
+<p class="delayed">We're going to change our website's subdomain so that people can find it by typing ** *[YOUR-NAME-HERE]*.netlify.com**.</p>
+
+
+          </script>
+        </article>
+      
+        <article class="slide " data-markdown >
+          <script type="text/template">
+            
+# Changing your subdomain name
+1. Go to **Domain Settings** ![](img/domain-settings.png) <!-- .element style="display: block;" height="200rem" -->
+1. Click on the three dots ![](img/subdomain-dots.png)    <!-- .element style="display: block;" height="200rem" -->
+1. Click on **Edit site name**
+1. Give it a better name and click **Save**
+
+
+          </script>
+        </article>
+      
+        <article class="slide title" data-markdown >
+          <script type="text/template">
+            
+# Updating your site
+
+
+          </script>
+        </article>
+      
+        <article class="slide " data-markdown >
+          <script type="text/template">
+            
+# Updating your site
+If we were to make some changes to our site on our computers, the online version of our site wouldn't update. **Why?**
+
+<p class="delayed">Because our **web host** is a different computer!</p>
+
+We need to upload the files from our computer onto our web host to see our changes online. <!-- .element class="delayed" -->
+
+
+          </script>
+        </article>
+      
+        <article class="slide " data-markdown >
+          <script type="text/template">
+            
+# Updating your site
+1. Make some changes to your local site
+1. Open up Netlify and click on **Deploys**
+1. Repeat the steps you used to create your site
+1. ***Make sure to use the same folder as before!***
+
+![](img/updating.png)
+
+          </script>
+        </article>
+      
+    </section>
+
+    <script src="framework/scripts/jquery-3.4.1.slim.min.js"></script>
+    <script src="framework/scripts/inspire.js"></script>
+
+    <script src="framework/scripts/plugins/css-edit.js"></script>
+    <script src="framework/scripts/plugins/css-snippets.js"></script>
+    <script src="framework/scripts/plugins/css-controls.js"></script>
+    <script src="framework/scripts/plugins/code-highlight.js"></script>
+
+    <script src="framework/scripts/plugins/markdown/marked.js"></script>
+    <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+    <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="framework/scripts/llc.js"></script>
+  </body>
+</html>
