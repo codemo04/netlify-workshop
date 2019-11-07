@@ -1,1 +1,26 @@
-/Users/grahamstill/.gem/ruby/2.6.0/gems/clc-slidegen-0.1.3/static/supplemental-images/./license.txt
+The images in this directory are licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
+
+The following images come from the GitHub repository found at https://github.com/ladieslearningcode/teenslc-digital-safety-and-privacy:
+teenslc-fullcolour.png
+teenslc-logo-stacked-white.png
+teenslc-logo-white.png
+teenslc-wide-fullcolour.png
+
+The following images come from the GitHub repository found at https://github.com/ladieslearningcode/klc-vr-with-cospaces:
+glc-fullcolour.png
+glc-logo-stacked-white.png
+glc-logo-white.png
+glc-wide-fullcolour.png
+klc-fullcolour.png
+klc-logo-stacked-white.png
+klc-logo-white.png
+klc-wide-fullcolour.png
+
+The following images come from the GitHub repository found at https://github.com/ladieslearningcode/tlc-scratch-for-edu:
+tlc-fullcolour.png
+tlc-logo-stacked-white.png
+tlc-logo-white.png
+tlc-wide-fullcolour.png
+
+The original license text is as follows:
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
